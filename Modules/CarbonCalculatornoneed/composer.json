@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/carboncalculator",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\CarbonCalculator\\Providers\\CarbonCalculatorServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CarbonCalculator\\": ""
+        }
+    }
+}

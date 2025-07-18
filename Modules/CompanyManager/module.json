@@ -1,0 +1,14 @@
+{
+    "name": "CompanyManager",
+    "alias": "companymanager",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CompanyManager\\Providers\\CompanyManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

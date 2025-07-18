@@ -1,0 +1,14 @@
+{
+    "name": "CarbonDatabase",
+    "alias": "carbondatabase",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CarbonDatabase\\Providers\\CarbonDatabaseServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

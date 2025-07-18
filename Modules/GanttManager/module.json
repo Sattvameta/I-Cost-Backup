@@ -1,0 +1,14 @@
+{
+    "name": "GanttManager",
+    "alias": "ganttmanager",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\GanttManager\\Providers\\GanttManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

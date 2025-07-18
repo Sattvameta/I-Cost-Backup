@@ -1,0 +1,14 @@
+SELECT `purchase_no` FROM `purchases` WHERE `project_id`= 39
+
+
+SELECT `certificate` ,`purchase_no` FROM purchase_certificate 
+UNION ALL
+SELECT `delivery_note`,`purchase_no`  FROM purchase_deliverynote
+
+
+SELECT `certificate` ,
+substr(trim(substring_index(certificate, '.', -1)),1,4) doc_type,`purchase_no` FROM purchase_certificate
+UNION ALL
+SELECT `delivery_note`,substr(trim(substring_index(delivery_note, '.', -1)),1,4) doc_type,`purchase_no`  FROM purchase_deliverynote
+
+https://laravel.com/docs/5.0/queries#unions

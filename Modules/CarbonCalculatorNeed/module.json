@@ -1,0 +1,14 @@
+{
+    "name": "CarbonCalculator",
+    "alias": "carboncalculator",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CarbonCalculator\\Providers\\CarbonCalculatorServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

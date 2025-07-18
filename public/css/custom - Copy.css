@@ -1,0 +1,89 @@
+body{position: relative;}
+/*.box{border-top: 0px !important;}*/
+.btn-bottom {text-align: center;margin-top: 20px;padding-top: 18px;}
+.permissions-col{margin-bottom:5px;}
+.roles-col{max-width:320px;}
+.chk input[type="checkbox"]{display:none}
+.chk input[type="checkbox"] + label{font-weight:400;line-height:25px;margin:0;min-height:25px;min-width:30px;padding:0px 0 0 36px;background:url(/chk.png) no-repeat left top;cursor:pointer;color:#000;font-size:13px; display: inline-block;}
+.chk input[type="checkbox"]:checked + label{background-image:url(/chk-a.png);font-weight:400;}
+.chk input[type="checkbox"]:disabled + label{color: #A9A9A9;}
+.red {color: red;}
+.image-logo{height: 50px;}
+.info-btn{padding: 4px;margin:2px;}
+.asterisk{color: red}
+.astrict{color: red}
+/*.box-header.with-border {border-bottom: 1px solid #e2e1e1;margin: 0 20px;padding: 20px 0;}
+.box-body{padding: 20px;}
+.box-header.with-border h3{font-size: 22px;font-weight: 600;margin-top: 0;margin-bottom: 15px;}
+.box-header.with-border h3::first-letter{text-transform: uppercase;}*/
+.accordion .card .card-header>h2{margin:0;}
+.accordion .card .card-header .btn.btn-link{display:block;width: 100%;padding: 15px 0;border-bottom: 1px solid #e2e1e1;}
+.accordion .card .card-header .btn.btn-link h3{display: block;margin:0;padding:0;text-align:left;font-size: 22px;text-transform: uppercase;}
+.accordion .card .card-body{padding: 15px;}
+.accordion .card .card-body .timeline-item{margin-bottom: 20px;}
+.accordion .card .card-body .timeline-item .timeline-footer{margin-top: 15px;}
+/*.box-header>.box-tools {position: absolute;right: 0;top: 20px;}*/
+.btn-link:focus, .btn-link:hover{text-decoration: none;}
+.main-sidebar {bottom: 0;height: 100%;}
+.class1{background-color: #dddcdc}
+.class2{background-color : #b9ffce}
+.class3{background-color: #ffdca5}
+.class4{background-color: #fe9494}
+.class5{background-color: #000000}
+
+/* new css */
+.data{padding:0 15px;}
+.data .row {background: #fafafa;padding: 0 0 19px 0;}
+.data .row h3{ margin: 0 -15px 15px -15px; font-size: 22px; border-bottom: solid 1px #ccc;padding: 10px 15px 12px;background: #3c8dbc;color: #fff;}
+.location-ranks .row.table-head {background: #3c8dbc;padding: 10px 0 11px;color: #fff;font-weight: 600;text-transform: capitalize;font-size: 14px; margin:0;}
+.location-ranks .row {padding: 8px 0 4px;border-bottom: solid 1px #eaeaea;}
+.location-ranks .row:last-child{border: none;}
+.search{display: flex; align-items: center;}
+.search .form-control{margin: 0 10px;}
+.document-permission .box-body{padding:10px;}
+.document-permission .box-body .row{margin-bottom: 15px;}
+.document-permission .box-body label{margin-bottom: 10px;}
+.document-permission .box-body .chk-box.head-location .chk input[type="checkbox"] + label{font-weight: 700;}
+.document-permission .box-body .permissions-col {margin: 10px 0 0px -14px;}
+.document-permission .box-body .chk-box{clear: both;}
+.w80{width: 80px;}
+.w70{width: 70px;}
+
+.form-group.has-error .help-block + .help-block {
+    display: none;
+}
+
+/*16-09-2019*/
+*{word-break: break-word;}
+.box-comments .username {font-size: 21px; text-transform: capitalize;}
+.box-comments .comment-text {margin-left: 0;}
+.box-comments .text-muted { font-size: 16px;}
+.box-comments { background: #f9f9f9; border: 1px solid #eee;   margin: 15px 15px 15px;  padding: 15px;}
+.box-primary{padding: 15px;}
+.dataTables_length, .dataTables_filter{padding: 10px 0 0;}
+.dataTables_length select{margin: 0 15px;}
+.box-body {padding: 15px;}
+.view-help .box-header {padding: 15px 80px 15px 15px;}
+.view-help .box-header .box-title { font-weight: 600;}
+.view-help .box-header > .box-tools { right: 15px; top: 10px;}
+.compose .atributes{box-shadow: 1px 2px 5px rgba(0,0,0,0.2); padding: 15px;}
+.compose .box-body{ background: rgba(198, 198, 198, 0.1); padding: 15px; margin: 0 0 15px;  border: 1px solid #ddd;}
+.px-custom-0 {padding-left: 0;padding-right: 0;}
+.compose .control-label{margin: 25px 0 0;}
+/*.mt-20 {margin-top: 20px;}*/	
+
+.dataTables_wrapper .dt-buttons {
+  float:right;  
+  text-align:center;
+}
+
+/*custom responsive*/
+
+@media screen and (max-width: 1199px){
+.box-tools.search{position: relative; top: auto; width: 100%;}
+}
+
+@media screen and (max-width: 479px){
+.search{flex-wrap: wrap;}
+.search .form-control{margin: 5px 0 10px;}
+}

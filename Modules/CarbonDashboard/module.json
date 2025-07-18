@@ -1,0 +1,14 @@
+{
+    "name": "CarbonDashboard",
+    "alias": "carbondashboard",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CarbonDashboard\\Providers\\CarbonDashboardServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

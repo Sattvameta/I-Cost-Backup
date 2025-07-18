@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/suppliermanager",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SupplierManager\\Providers\\SupplierManagerServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SupplierManager\\": ""
+        }
+    }
+}

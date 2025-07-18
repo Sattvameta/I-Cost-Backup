@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/carbondashboard",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\CarbonDashboard\\Providers\\CarbonDashboardServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CarbonDashboard\\": ""
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "ReportManager",
+    "alias": "reportmanager",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ReportManager\\Providers\\ReportManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

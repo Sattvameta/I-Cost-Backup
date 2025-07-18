@@ -1,0 +1,14 @@
+{
+    "name": "CostManager",
+    "alias": "costmanager",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\CostManager\\Providers\\CostManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

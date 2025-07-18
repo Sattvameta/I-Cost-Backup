@@ -1,0 +1,14 @@
+{
+    "name": "TimesheetManager",
+    "alias": "timesheetmanager",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\TimesheetManager\\Providers\\TimesheetManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
